@@ -1,0 +1,41 @@
+h2 {
+color: #6FCCA1
+}
+
+
+body {
+background-color: #71637F;
+color: #8AFFC9;
+width: 700px;
+}
+
+p {
+
+
+}
+
+#nav {
+
+
+}
+
+/* unvisited link */
+a:link {
+    color: #6FCCA1;
+}
+
+/* visited link */
+a:visited {
+    color: #6FCCA1;
+}
+
+/* mouse over link */
+a:hover {
+    color: #6FCCA1;
+}
+
+/* selected link */
+a:active {
+    color: #6FCCA1;
+}
+
