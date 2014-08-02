@@ -21,11 +21,13 @@ p {
 
 /* unvisited link */
 a:link {
+    text-decoration: none;
     color: #6FCCA1;
 }
 
 /* visited link */
 a:visited {
+    text-decoration: none;
     color: #6FCCA1;
 }
 
