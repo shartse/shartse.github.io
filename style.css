@@ -1,12 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans)
 h2 {
-color: #6FCCA1
+color: #47484A;
 }
 
 
 body {
-background-color: #71637F;
-color: #8AFFC9;
-width: 700px;
+  color: #47484A;
+  width: 700px;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image:
+    url("stars_drawing.svg"),
+    linear-gradient(
+      to top right, 
+      #A3B8CC, #EDF1F5);
+  
+  padding: 1em;
 }
 
 p {
@@ -15,29 +23,28 @@ p {
 }
 
 #nav {
-
-
+  font-weight: bold;
 }
 
 /* unvisited link */
 a:link {
     text-decoration: none;
-    color: #6FCCA1;
+    color: #47484A;
 }
 
 /* visited link */
 a:visited {
     text-decoration: none;
-    color: #6FCCA1;
+    color: #47484A;
 }
 
 /* mouse over link */
 a:hover {
-    color: #6FCCA1;
+    color: #47484A;
 }
 
 /* selected link */
 a:active {
-    color: #6FCCA1;
+    color: #47484A;
 }
 
