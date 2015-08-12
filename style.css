@@ -17,25 +17,53 @@ body {
   padding: 1em;
 }
 
-p {
+.elm {
+padding: .5em;
+}
 
+#icons {
+text-align: center;
 
+}
+
+hr {
+   border: 0;
+   height: 2px;
+   background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), #47484A, rgba(0,0,0,0));
+   background-image: -moz-linear-gradient(left, rgba(0,0,0,0), #47484A, rgba(0,0,0,0));
+   background-image: -ms-linear-gradient(left, rgba(0,0,0,0), #47484A, rgba(0,0,0,0));
+   background-image: -o-linear-gradient(left, rgba(0,0,0,0), #47484A, rgba(0,0,0,0));
+}
+
+#title {
+  text-align: center;
 }
 
 #nav {
   font-weight: bold;
   color: #47484A;
+  text-align: center;
+  margin: 1em;
 }
 
 /* unvisited link */
 a:link {
-    text-decoration: none;
+    text-decoration: underline;
   color: #47484A;
 }
 
 /* visited link */
-a:visited {
+
+#nav a:link {
     text-decoration: none;
+}
+
+#title a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: underline;
     color: #47484A;
 }
 
