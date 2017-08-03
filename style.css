@@ -7,7 +7,6 @@ color: #414A52;
 body {
   color: #47484A;
   width: 700px;
-  min-height: 700px;
   font-family: 'Josefin Sans', sans-serif;
   background-image:
     url("stars_drawing.svg"),
@@ -46,6 +45,10 @@ hr {
   color: #47484A;
   text-align: center;
   margin: 1em;
+}
+
+#middle {
+  min-height: 700px;
 }
 
 /* unvisited link */
