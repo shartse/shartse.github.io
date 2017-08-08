@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans)
 h2 {
 color: #414A52;
 }
@@ -7,13 +6,7 @@ color: #414A52;
 body {
   color: #47484A;
   width: 700px;
-  font-family: 'Josefin Sans', sans-serif;
-  background-image:
-    url("stars_drawing.svg"),
-    linear-gradient(
-      to top right, 
-      #A3B8CC, #EDF1F5);
-  
+  font-family: sans-serif;
   padding: 1em;
 }
 
@@ -24,15 +17,6 @@ padding: .5em;
 #icons {
 text-align: center;
 
-}
-
-hr {
-   border: 0;
-   height: 2px;
-   background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), #47484A, rgba(0,0,0,0));
-   background-image: -moz-linear-gradient(left, rgba(0,0,0,0), #47484A, rgba(0,0,0,0));
-   background-image: -ms-linear-gradient(left, rgba(0,0,0,0), #47484A, rgba(0,0,0,0));
-   background-image: -o-linear-gradient(left, rgba(0,0,0,0), #47484A, rgba(0,0,0,0));
 }
 
 #title {
