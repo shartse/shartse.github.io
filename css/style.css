@@ -2,7 +2,6 @@ h2 {
 color: #414A52;
 }
 
-
 body {
   color: #47484A;
   width: 700px;
@@ -14,17 +13,16 @@ body {
 padding: .5em;
 }
 
-#icons {
+footer {
 text-align: center;
-
 }
 
 #title {
   text-align: center;
-  font-size: 250%;
+  font-size: 100%;
 }
 
-#nav {
+nav {
   font-weight: bold;
   color: #47484A;
   text-align: center;
