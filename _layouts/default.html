@@ -5,24 +5,24 @@
   </head>
   
     <body>
-      <h2> 
-         <div id="title">{{ page.title }}</div>
-      </h2> 
-      <nav>
-        <a href ="/"><span class="elm">About</span></a>
-        <a href= "/projects.html"><span class="elm">Projects</span></a>
-        <a href= "/blog"><span class="elm">Blog</span></a>
-      </nav>
-
 	<div class="container">
-			
-        {{ content }}
-			
+        
+	<div class="item title">{{ page.title }}</div>
+        
+	<div class="item nav">
+		<a href ="/projects.html">Links</a>
+        	<a href ="/">Blog</a>
+	</div>
+        
+	<div class="item body">{{ content }}</div>
+        
+	<div class="item icons">
+		<a href="https://www.facebook.com/sara.hartse">
+			<img src="/icons/facebook.svg"></a>
+        	<a href="https://github.com/shartse"><img src="/icons/github.svg"></a>
+        	<a href="https://www.linkedin.com/pub/sara-hartse/101/293/13b">
+			<img src="/icons/linkedin.svg"></a>
+	</div>
 	</div><!-- /.container -->
-    <footer>
-        <a href="https://www.facebook.com/sara.hartse"><img src="/icons/facebook.svg"></a>
-        <a href="https://github.com/shartse"><img src="/icons/github.svg"></a>
-        <a href="https://www.linkedin.com/pub/sara-hartse/101/293/13b"><img src="/icons/linkedin.svg"></a>
-    </footer>
     </body>
 </html>

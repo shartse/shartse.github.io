@@ -1,9 +1,13 @@
 ---
 layout: default
-title: About Sara 
+title: Sara Hartse
 ---
-<p> 
-I'm a recent ('17) Brown Computer Science graduate. I currently work for Delphix
-on their platforms team, working on the product's OS infrastructure and on the ZFS
-filesystem.
-</p>
+
+<ul class="posts">                                                                                                        
+{% for post in site.posts %}
+<li>
+<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ul>
+
