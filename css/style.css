@@ -14,12 +14,12 @@
    vertical-align: baseline;
    text-align: center;
    font-size: 150%;
-  padding: 35px;
+   padding: 35px;
    grid-column-start: 1;
    grid-column-end: 6;
    grid-row-start: 1;
    grid-row-end: 2;
-  background-color: #edd693;
+   background-color: #beb2b6;
 }
 .nav {
    text-align: center;
@@ -46,16 +46,15 @@ body {
   max-width: 600px;
   margin: auto;
   color: #47484A;
-  font-family: sans-serif;
+  font-family: 'Assistant', sans-serif;
 }
 
 footer {
 text-align: center;
 }
 
-#title {
-  text-align: center;
-  font-size: 100%;
+.blog-title {
+  font-size: 125%;
 }
 
 /* unvisited link */
@@ -81,5 +80,5 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #edd693;
+    color: #beb2b6;
 }
