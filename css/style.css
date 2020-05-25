@@ -46,7 +46,7 @@ body {
   max-width: 600px;
   margin: auto;
   color: #47484A;
-  font-family: 'Assistant', sans-serif;
+  font-family: Monaco, monospace;
 }
 
 footer {
