@@ -42,8 +42,19 @@
    text-align: center;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+}
+
+.grid img {
+  max-width: 100%;
+  height:auto;
+}
+
 body {
-  max-width: 600px;
   margin: auto;
   color: #47484A;
   font-family: Monaco, monospace;
