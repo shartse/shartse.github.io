@@ -1,51 +1,44 @@
 .container {
   display: grid;
-  grid-template-columns: 5% 1fr 1fr 1fr 5%;
+  grid-template-columns: 10% 1fr 1fr 1fr 10%;
   grid-template-rows: 75px;
   grid-gap: 10px;
   background-color: #fff;
   border-radius: 1px;
 }
 
-.item {
+.title {
+  vertical-align: baseline;
+  text-align: center;
+  font-size: 150%;
+  padding: 35px;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: #beb2b6;
 }
 
-.title {
-   vertical-align: baseline;
-   text-align: center;
-   font-size: 150%;
-   padding: 35px;
-   grid-column-start: 1;
-   grid-column-end: 6;
-   grid-row-start: 1;
-   grid-row-end: 2;
-   background-color: #beb2b6;
-}
-.nav {
-   text-align: center;
-   grid-column-start: 3;
-   grid-column-end: 4;
-   grid-row-start: 2;
-   grid-row-end: 3;
-}
 .body {
-   grid-column-start: 2;
-   grid-column-end: 5;
-   grid-row-start: 3;
-   grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
+
 .icons {
-   grid-column-start: 2;
-   grid-column-end: 5;
-   grid-row-start: 4;
-   grid-row-end: 5;
-   text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  text-align: center;
+  padding: 35px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 25px;
   align-items: start;
 }
 
@@ -75,7 +68,6 @@ a:link {
 }
 
 /* visited link */
-
 #nav a:link {
     text-decoration: none;
 }

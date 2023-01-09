@@ -1,34 +1,35 @@
 <html>
   <head>
-  <title>Sara Hartse</title>
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/docs/assets/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/docs/assets/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/docs/assets/favicon-16x16.png">
-<link rel="manifest" href="/docs/assets/site.webmanifest">
-<link rel="mask-icon" href="/docs/assets/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="/docs/assets/favicon.ico">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-config" content="/docs/assets/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
+
+    <!-- Favicon Assets and Configuration -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/docs/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/docs/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/docs/assets/favicon-16x16.png">
+    <link rel="manifest" href="/docs/assets/site.webmanifest">
+    <link rel="mask-icon" href="/docs/assets/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/docs/assets/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/docs/assets/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
   </head>
   
-    <body>
-	<div class="container">
-        
-		<div class="item title"><a href="/">Sara Hartse</a></div>
-        
-        
-	<div class="item body">{{ content }}</div>
-        
-	<div class="item icons">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   	<a target="_blank" href="https://github.com/shartse"><i class="fa fa-2x fa-github"></i></a>
-   	<a target="_blank" href="https://www.linkedin.com/in/sara-hartse-13b293101/"><i class="fa fa-2x fa-linkedin"></i></a>
-	</div>
+  <body>
+    <div class="container">
 
-	</div><!-- /.container -->
-    </body>
+      <div class="item title"><a href="/">{{ site.title }}</a></div>
+      <div class="item body">{{ content }}</div>
+
+      <!-- Social Media Icons -->
+      <div class="item icons">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a target="_blank" href="https://github.com/shartse"><i class="fa fa-2x fa-github"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/sara-hartse-13b293101/"><i class="fa fa-2x fa-linkedin"></i></a>
+      </div>
+    </div><!-- /.container -->
+  </body>
 </html>

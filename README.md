@@ -7,8 +7,8 @@ I mostly followed [these instructions](https://docs.github.com/en/pages/setting-
 Requires `ruby`, `jekyll` and `bundler`. 
 
 ```
-> `bundle install`
-> `bundle exec jekyll serve`
+$ bundle install
+$ bundle exec jekyll serve
 ```
 
 ## Deploy
