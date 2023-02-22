@@ -1,7 +1,7 @@
 title: "Sara Hartse"
 author:
         name: "Sara Hartse"
-        email: "shartse@gmail.com"
+        email: "sara.hartse@gmail.com"
 
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
