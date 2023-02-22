@@ -5,3 +5,5 @@ author:
 
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
+plugins:
+  - jekyll-feed
